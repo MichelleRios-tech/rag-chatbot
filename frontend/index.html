@@ -19,6 +19,24 @@
         <div class="main-content">
             <!-- Left Sidebar -->
             <aside class="sidebar">
+                <!-- New Chat Button -->
+                <div class="sidebar-section">
+                    <button id="newChatButton" class="new-chat-button">
+                        + NEW CHAT
+                    </button>
+                </div>
+
+                <!-- Model Selector -->
+                <div class="sidebar-section model-selector-section">
+                    <label for="modelSelect" class="model-label">AI Model</label>
+                    <select id="modelSelect" class="model-dropdown">
+                        <option value="">Loading models...</option>
+                    </select>
+                    <div class="model-info">
+                        <span id="providerStatus" class="provider-status">Initializing...</span>
+                    </div>
+                </div>
+
                 <!-- Course Stats -->
                 <div class="sidebar-section">
                     <details class="stats-collapsible">
